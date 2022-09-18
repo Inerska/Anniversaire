@@ -1,11 +1,14 @@
-﻿namespace Anniversaire.Application;
+﻿using Microsoft.Maui;
 
-public partial class App : Application
+namespace Anniversaire.Application
 {
-	public App()
-	{
-		InitializeComponent();
+    public partial class App : Microsoft.Maui.Controls.Application
+    {
+        public App()
+        {
+            InitializeComponent();
 
-		MainPage = new AppShell();
-	}
+            MainPage = new AppShell();
+        }
+    }
 }

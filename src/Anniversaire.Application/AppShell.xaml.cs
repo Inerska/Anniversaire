@@ -1,9 +1,10 @@
-﻿namespace Anniversaire.Application;
-
-public partial class AppShell : Shell
+﻿namespace Anniversaire.Application
 {
-    public AppShell()
+    public partial class AppShell : Shell
     {
-        InitializeComponent();
+        public AppShell()
+        {
+            InitializeComponent();
+        }
     }
 }
